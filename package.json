@@ -1,0 +1,29 @@
+{
+  "name": "test13",
+  "version": "1.0.0",
+  "description": "JS/TS exercises",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --recursive tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usalko/test13.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "tests"
+  ],
+  "author": "Vanya Usalko <ivict@rambler.ru>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/usalko/test13/issues"
+  },
+  "homepage": "https://github.com/usalko/test13#readme",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}
