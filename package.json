@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha --recursive tests"
+    "test": "mocha --recursive tests",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/usalko/test13#readme",
   "devDependencies": {
     "chai": "^5.1.1",
-    "mocha": "^10.4.0"
+    "mocha": "^10.4.0",
+    "nyc": "^17.0.0"
   }
 }
